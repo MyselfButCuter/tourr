@@ -1,0 +1,146 @@
+  
+body{
+    height:100vh;
+    background-color: white;
+  
+  }
+  
+  ul{
+    display: flex;
+    position:absolute;
+    top:10%;
+    left:87%;
+    transform: translate(-50%,-50%);
+  
+  }
+  ul li{
+    list-style: none;
+    margin: 15px;
+  }
+  ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 36px;
+    color: gray;
+    transition: .5s;
+  
+  }
+  ul li a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: gray;
+    transition: .5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+  
+  ul li a:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgb(172, 25, 147);
+  }
+  ul li a:hover{
+    color: rgb(255, 0, 119);
+    box-shadow: 0 0 5px rgb(95, 26, 55);
+    text-shadow: 0 0 5px rgb(206, 82, 236);
+  }
+  h1{
+    display: flex;
+    position:absolute;
+    top:0%;
+    left:81%;
+    transform: translate(-50%,-50%);
+  }
+  htty {   
+    display: flex;
+    position:absolute;
+    top:20%;
+    left:11%;
+    transform: translate(-50%,-50%);
+
+  }
+  htl {
+    display: flex;
+    position:absolute;
+    top:25%;
+    left:25%;
+    transform: translate(-50%,-50%);
+  }
+  hy {
+    display: flex;
+    position:absolute;
+    top:70%;
+    left:40%;
+    transform: translate(-50%,-50%);
+  }
+  tm {
+    display: flex;
+    position:absolute;
+    top:70%;
+    left:40%;
+    transform: translate(-50%,-50%);
+  }
+  k{
+    display: flex;
+    position:absolute;
+    top:45%;
+    left:2%;
+    transform: translate(-50%,-50%);
+  }
+  k li{
+    list-style: none;
+    margin: 15px;
+  }
+  k li a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: gray;
+    transition: .5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+  k li a:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgb(214, 186, 28);
+  }
+  k li a:hover{
+    color: rgb(13, 75, 133);
+    box-shadow: 0 0 35px rgb(42, 53, 155);
+    text-shadow: 0 0 5px rgb(115, 138, 31);
+  }
+  k li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 36px;
+    color: gray;
+    transition: .5s;
+  
+  }
+  ht {
+    display: flex;
+    position:absolute;
+    top:45%;
+    left:25%;
+    transform: translate(-50%,-50%);
+  }
